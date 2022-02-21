@@ -40,7 +40,6 @@ class Janken
     janken = ["Goo", "Choki", "Par"]
   # "La main de l'autre partie est # {la main de l'autre partie}." Est la sortie.
     puts "La main de l'adversaire est#{janken[enemy_hand]}"
-    ​
     if player_hand == enemy_hand
       puts "Aiko"
 
